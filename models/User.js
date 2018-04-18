@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 //create Scehma
 
-const UserScehma = = new Scehma({
+const UserScehma = new Scehma({
   name:{
     type:String,
     required:true
