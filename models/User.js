@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 //create Scehma
 
-const UserScehma = new Scehma({
+const UserScehma = new Schema({
   name:{
     type:String,
     required:true
@@ -17,8 +17,7 @@ const UserScehma = new Scehma({
     required:true
   },
   avatar:{
-    type:String,
-    required:true
+    type:String
   },
   date:{
     type:Date,
